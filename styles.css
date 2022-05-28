@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+.clock-container {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+  animation: clockSlide 5s infinite ;
+}
+
+.clock-container-main {
+
+}
+
+.clock-container-main img{
+    height: 100%;
+}
+
+@keyframes clockSlide {
+    10%, 20% { transform: rotate(10deg) }
+}
